@@ -17,11 +17,13 @@ echo 1. Clean up Windows
 echo 2. Run DOS mode
 echo 3. Ping a site 
 echo 4. Fix your Wi-Fi
+echo 5. Schooi's Multitool
 REM Ask for input
 set /p "choice=> "
 if /i "%choice%"=="1" start clean.bat
 if /i "%choice%"=="2" start dosmode.bat
 if /i "%choice%"=="3" start ping.bat
 if /i "%choice%"=="4" start wifix.bat
+if /i "%choice%"=="5" start getsmt.bat
 goto main
 exit
